@@ -41,8 +41,7 @@ double sinn(double x, uint16_t count) {
         if (flag) {
             ret -= calcItem(x, i);
             flag = false;
-        }
-        else{
+        } else {
             ret += calcItem(x, i);
             flag = true;
         }
@@ -57,8 +56,7 @@ double cosn(double x, uint16_t count) {
         if (flag) {
             ret -= calcItem(x, i);
             flag = false;
-        }
-        else{
+        } else {
             ret += calcItem(x, i);
             flag = true;
         }
